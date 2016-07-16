@@ -5,7 +5,7 @@ var fibFinder = function(value){
   var sum = 0; //sum of even number in fib sequence
 
   while(nextNum <= value){
-    nextNum = secondNum + firstNum; //add first number and second number to get fibonacci sequence - starts with 1
+    nextNum = secondNum + firstNum; //add first number and second number to get next number in fibonacci sequence - starts with 1
     if(nextNum % 2 === 0){
       //test to see if nextNum is even. If so add to sum variable
       sum += nextNum;
